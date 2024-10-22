@@ -1,0 +1,2 @@
+// Retrieves and prints all documents from the school collection where the name starts with "Holberton"
+db.school.find({name: /Holberton.*/}).forEach(printjson);
